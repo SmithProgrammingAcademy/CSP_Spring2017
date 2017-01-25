@@ -24,15 +24,15 @@
  * Modifications:
  *
  *****************************************************************************/
-
-Egg White Delight McMuffin #function name
-Variables:
-(bacon)
-(white cheddar)
-Constants: 
-(egg white)
-(toasted english muffin)
-
-
-end #end of program
-    
+EggWhiteDelightMcmuffinType EggWhiteDelightMcmuffin (bacon=True, whitecheddar=True, toastedenglishmuffin=True) 
+EggWhiteDelightMcmuffin retVal=eggwhite
+if (bacon==True)
+    retVal+=bacon
+end
+if (whitecheddar==True)
+    retVal+=whitecheddar
+end
+if toastedenglishmuffin==True)
+    retVal+=toastedenglishmuffin
+end
+return (retVal)
