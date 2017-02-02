@@ -13,11 +13,11 @@
  *****************************************************************************/
 
 /**
- * Hotcakes recipe #function name
+ * hashbrowns
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_Hotcakes
+ * @file csp_hashbrowns
  * @author Graham Adams
  * @date 1/20/2017
  */
@@ -27,17 +27,10 @@
  *
  *****************************************************************************/
 
-Hotcakestype Hotcakes (hotcakes=true, syrup=true, butter=true)
-  if hotcakes==true
-    add three hotcakes
+hashbrownstype (hashbrowns=true)
+  if hashbrowns==true
+    add a hashbrown
 end
-  if syrup==true
-    add container of syrup
-end
-  if butter==true
-    add container of butter
-end
-
 
 end #end of program
     

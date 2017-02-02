@@ -1,0 +1,56 @@
+any or all could be true. 
+
+  if A==true
+    sing
+end
+  if B==true
+    dance
+end
+  if C==true
+    speak
+end
+  if D==true
+    bark
+end
+  if E==true 
+    meow
+end
+  if F==true
+    moo
+end
+  if G==true
+    tweet
+end
+  if H==true
+    sleep
+end
+  if I==true
+    wake up
+end
+  if J==true
+    die
+end
+
+Only one can be true.
+
+  if A==true
+    sing
+  else if B==true 
+    dance
+  else if C==true 
+    speak
+  else if D==true 
+    bark
+  else if E==true
+    meow
+  else if F==true 
+    moo
+  else if G==true
+    tweet
+  else if H==true
+    sleep
+  else if I==true
+    wake up
+  else if J==true 
+    die
+end

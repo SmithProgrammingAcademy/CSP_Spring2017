@@ -13,13 +13,11 @@
  *****************************************************************************/
 
 /**
- * Hotcakes recipe #function name
- * INPUTS none
- * OUTPUTS none
+ * Egg White Delight Recipe #function name
  *
- * @file csp_Hotcakes
- * @author Graham Adams
- * @date 1/20/2017
+ * @file csp_Egg White Delight McMuffin
+ * @author Ethan Finck
+ * @date 1/14/2017
  */
 
 /****************************************************************************
@@ -27,16 +25,13 @@
  *
  *****************************************************************************/
 
-Hotcakestype Hotcakes (hotcakes=true, syrup=true, butter=true)
-  if hotcakes==true
-    add three hotcakes
-end
-  if syrup==true
-    add container of syrup
-end
-  if butter==true
-    add container of butter
-end
+Egg White Delight McMuffin #function name
+Variables:
+(bacon)
+(white cheddar)
+Constants: 
+(egg white)
+(toasted english muffin)
 
 
 end #end of program

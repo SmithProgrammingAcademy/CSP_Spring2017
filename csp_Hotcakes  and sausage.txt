@@ -13,10 +13,11 @@
  *****************************************************************************/
 
 /**
- * baconranchgrilledsalad #function name
+ * Hotcakesandsausage
  * INPUTS none
- * OUTPUT none
- * @file csp_baconranchgrilledsalad
+ * OUTPUTS none
+ *
+ * @file csp_Hotcakesandsausage
  * @author Graham Adams
  * @date 1/20/2017
  */
@@ -26,46 +27,18 @@
  *
  *****************************************************************************/
 
-baconranchgrilledsaladtype baconranchgrilledsalad (bacon=true,cheddar cheese=true, ranch dressing=true, grape tomatoes=true, carrots=true, kale=true, lettuce=true, spinach=true, romaine=true, parsley=true,garlic powder=true, salt=true, chicken=true)
-
-if kale==true
-   add kale
+Hotcakesandsausagetype (hotcakes=true, syrup=true, butter=true, sausage=true)
+  if hotcakes==true
+    add three hotcakes
 end
-if lettuce=true
-   add lettuce
+  if syrup==true
+    add container of syrup
 end
-if spinach=true
-   add spinach
+  if butter==true
+    add container of butter
 end
-if romaine=true
-   add romaine
-end
-if parsley=true
-   add parsley
-end
-if garlic powder==true
-   add garlic powder
-end
-if salt==true
-   add salt
-end
-if chicken==true
-   add chicken
-end
-if (bacon==true)
-   add bacon
-end   
-if (cheddar cheese==true)
-   add cheese
-end   
-if (ranch dressing==true)
-   add dressing
-end   
-if (grape tomatoes==true)
-   add grape tomatoes
-end   
-if (carrots==true)   
-   add carrots    
+  if sausage==true
+    add sausage patty
 end
 end #end of program
     
