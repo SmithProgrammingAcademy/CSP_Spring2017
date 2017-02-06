@@ -13,30 +13,36 @@
  *****************************************************************************/
 
 /**
- * Butter Milk Crispy Chicken Salad Recipe 
+ * artisan-grilled-chicken-sandwich #function name
+ * INPUTS none
+ * OUTPUTS none
  *
- * @file csp_Butter Milk Chicken Salad
- * @Ethan Finck
- * @date 1/14/2017
+ * @file csp_artisan-grilled-chicken-sandwich
+ * @author Graham Adams
+ * @date 2/6/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-ButterMilkCrispyChickenSaladType ButterMilkCrispyChickenSalad (babyspinach=True, babykale=True, chickenbreastfilet=True, redleaflettuce=True) 
-ButterMilkCrispyChickenSalad retVal=choppedromain;
 
-if (babyspinach==True)
-    retVal+=babyspinach
+artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
+  if artisan_roll==true
+    add artisan roll
 end
-if (babykale==True)
-    retVal+=babykale
+  if artisan-grilled-chicken-filet==true
+    add artisan grlled chicken filet
 end
-if (chickenbreastfilet==True)
-    retVal+=chickenbreastfilet
+  if shredded_lettuce==true
+    add lettuce
 end
-if (redleaflettuce==True)
-    retVal+=redleaflettuce
+  if vinnagerette_sauce==true
+    add vinnagerette sauce
 end
-return (retVal)
+   if tomato_slice==true
+     add a tomato slice
+end     
+	 
+end #end of program
+    

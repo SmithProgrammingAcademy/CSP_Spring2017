@@ -13,30 +13,29 @@
  *****************************************************************************/
 
 /**
- * Butter Milk Crispy Chicken Salad Recipe 
+ * Bacon Ranch Salad & Buttermilk Crispy Chicken Recipe 
  *
- * @file csp_Butter Milk Chicken Salad
- * @Ethan Finck
- * @date 1/14/2017
+ * @file csp_Bacon Ranch Salad & Buttermilk Crispy Chicken
+ * @Emily Bjorensen 
+ * @date 2/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-ButterMilkCrispyChickenSaladType ButterMilkCrispyChickenSalad (babyspinach=True, babykale=True, chickenbreastfilet=True, redleaflettuce=True) 
-ButterMilkCrispyChickenSalad retVal=choppedromain;
+Bacon Ranch Salad & Buttermilk Crispy Chicken Type Bacon Ranch Salad & Buttermilk Crispy Chicken (crispychickenfilet=True, Grapetomatoes=True, Thickcutbacon=True, Shreddedcheese=True) 
+Bacon Ranch Salad & Buttermilk Crispy Chicken retVal=Saladblend
 
-if (babyspinach==True)
-    retVal+=babyspinach
+If (crispychickenfilet==True)
+    retVal+=crispychickenfilet
 end
-if (babykale==True)
-    retVal+=babykale
+If (Grapetomatoes==True)
+    retVal+=Grapetomatoes
 end
-if (chickenbreastfilet==True)
-    retVal+=chickenbreastfilet
+If (Thickcutbacon==True)
+    retVal+=Thickcutbacon
 end
-if (redleaflettuce==True)
-    retVal+=redleaflettuce
-end
+If (Shreddedcheese==True)
+    retVal+=Shreddedcheese
 return (retVal)

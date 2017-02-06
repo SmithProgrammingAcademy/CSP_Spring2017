@@ -13,30 +13,31 @@
  *****************************************************************************/
 
 /**
- * Butter Milk Crispy Chicken Salad Recipe 
+ * Find and return the maximum value of two numbers
  *
- * @file csp_Butter Milk Chicken Salad
- * @Ethan Finck
- * @date 1/14/2017
+ * @file csp_Bacon Ranch Salad & Buttermilk Crispy Chicken 
+ * @author Emily Bjorensen 
+ * @date 1/18/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-ButterMilkCrispyChickenSaladType ButterMilkCrispyChickenSalad (babyspinach=True, babykale=True, chickenbreastfilet=True, redleaflettuce=True) 
-ButterMilkCrispyChickenSalad retVal=choppedromain;
 
-if (babyspinach==True)
-    retVal+=babyspinach
-end
-if (babykale==True)
-    retVal+=babykale
-end
-if (chickenbreastfilet==True)
-    retVal+=chickenbreastfilet
-end
-if (redleaflettuce==True)
-    retVal+=redleaflettuce
-end
-return (retVal)
+MAX   //BACON RANCH SALAD & BUTTERMILK CRISPY CHICKEN 
+INPUTS: None 
+OUTPUT: None 
+
+Variables: 
+(Salad dressing)
+(Tomatos)
+(Cheese) 
+Constants: 
+(Salad Blend)
+(Crispy Buttermilk Chicken Filet)
+(Thick Cut Applewood Smoked Bacon)
+
+
+end //end of program
+    

@@ -2,14 +2,11 @@
 Computer Science Principles Classwork - Spring 2017
 
 Brad Smith -- bradanna@gmail.com
-
-Kevin Smith -- smith.kevin2001@gmail.com 6782804522
+Kevin Smith -- smith.kevin2001@gmail.com
 Emily Bjorensen -- ebjorensen@outlook.com
-James Musone -- jc_musone@bellsouth.net
-Graham Adams -- grahamadamsemail@gmail.com
-Ethan Finck -- efinck2002@gmail.com
+James Musone
+Graham Adams
+Ethan Finck
 
 Welcome Class!
-
-Go Jackets!!
 
