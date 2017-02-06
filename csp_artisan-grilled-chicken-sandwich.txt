@@ -1,0 +1,47 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * artisan-grilled-chicken-sandwich #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_artisan-grilled-chicken-sandwich
+ * @author Graham Adams
+ * @date 2/6/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
+  if artisan_roll==true
+    add artisan roll
+end
+  if artisan-grilled-chicken-filet==true
+    add artisan grlled chicken filet
+end
+  if shredded_lettuce==true
+    add lettuce
+end
+  if vinnagerette_sauce==true
+    add vinnagerette sauce
+end
+   if tomato_slice==true
+     add a tomato slice
+	 
+end #end of program
+    
