@@ -1,0 +1,45 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Mcchicken #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_Mcchicken
+ * @author Graham Adams
+ * @date 2/2/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+Mcchickentype Mcchicken (Mcchicken_Patty==true, regular_bun==true, shredded_lettuce==true, mayonaise_dressing==true)
+  if Mcchicken_Patty==true
+    add Mcchicken Patty
+end
+  if regular_bun==true
+    add bun
+end
+  if shredded_lettuce==true
+    add lettuce
+end
+  if mayonaise_dressing==true
+    add mayonaise
+end
+
+end #end of program
+    
