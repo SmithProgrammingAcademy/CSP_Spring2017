@@ -42,6 +42,7 @@ end
 end
    if tomato_slice==true
      add a tomato slice
+end     
 	 
 end #end of program
     
