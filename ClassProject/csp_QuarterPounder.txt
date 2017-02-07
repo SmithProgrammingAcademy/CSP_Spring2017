@@ -13,7 +13,7 @@
  *****************************************************************************/
 
 /**
- * Egg White Delight Recipe #function name
+ * QuarterPounder #function name
  *
  * @file csp_QuarterPounder
  * @author Ethan Finck
