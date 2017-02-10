@@ -16,7 +16,7 @@
  * 
  *
  * @file csp_McDouble
- * @author Brad Smith
+ * @author Ethan Finck 
  * @date 2/8//2017
  */
 
