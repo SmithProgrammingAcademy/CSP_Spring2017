@@ -1,0 +1,32 @@
+/***************************************************************************** * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * the best pair project
+ * inputs five letters
+ * outputs five other letters
+ * @file csp_the_best_pair_project
+ * @authors Graham Adams, James
+ * @date 2/10/2017
+ */
+
+ /****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+ char alphabet[]= (',a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z)
+ x=1
+ else if
+ while(x!=input&&x<27)
+    x+=1
+end
