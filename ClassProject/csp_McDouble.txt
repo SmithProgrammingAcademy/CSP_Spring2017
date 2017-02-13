@@ -13,36 +13,36 @@
  *****************************************************************************/
 
 /**
- * artisan-grilled-chicken-sandwich #function name
- * INPUTS none
- * OUTPUTS none
+ * 
  *
- * @file csp_artisan-grilled-chicken-sandwich
- * @author Graham Adams
- * @date 2/6/2017
+ * @file csp_McDouble
+ * @author Ethan Finck 
+ * @date 2/8//2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
-  if artisan_roll==true
-    add artisan roll
-  end
-  if artisan-grilled-chicken-filet==true
-    add artisan grlled chicken filet
-  end
-  if shredded_lettuce==true
-    add lettuce
-  end
-  if vinnagerette_sauce==true
-    add vinnagerette sauce
-  end
-  if tomato_slice==true
-     add a tomato slice
-  end     
-	 
-end #end of program
-    
+McDoubleType McDouble (beefpatty=True, americancheese=True, pickles=True, ketchup=True, onions=True, mustard=True)
+McDouble retVal+=regularbun
+if (beefpatty==True)
+    retVal+=beefpatty
+end
+if (americancheese==True)
+    retVal+=americancheese
+end
+if (pickles==True)
+    retVal+=pickels
+end
+if (ketchup==True)
+    retVal+=ketchup
+end
+if (onions==True)
+    retVal+=onions
+end
+if (mustard==True)
+    retVal+=mustard
+end
+return (retVal)
+end  
