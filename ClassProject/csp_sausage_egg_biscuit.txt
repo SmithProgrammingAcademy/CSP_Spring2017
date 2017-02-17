@@ -1,0 +1,49 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * the sausage and egg biscuit program
+ *
+ * @file csp_sausage_egg_biscuit
+ * @author James Musone
+ * @date 2/16/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+ 
+BiscuitType Sandwhich(folded egg=true, sausage patty=true, salted butter=true, clarified butter=true)
+Constant(biscuit)
+
+if(folded egg == true)
+	Sandwhich += folded egg
+end
+
+if(sausage patty == true)
+	Sandwhich += sausage patty
+end
+
+if(salted butter == true)
+	Sandwhich += salted butter
+end
+
+if(clarified butter == true)
+	Sandwhich += clarified butter
+end
+
+return(Sandwhich)
+
+end
