@@ -13,37 +13,31 @@
  *****************************************************************************/
 
 /**
-
- * QuarterPounder #function name
+ * 
  *
- * @file csp_QuarterPounder
+ * @file csp_PairProject
  * @author Ethan Finck
- * @date 2/7/2017
+ * @date 2/21/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-QuarterPounderType QuarterPounder (beefpatty=True, ketchup=True, onions=True, pickles=True, americancheese=True, mustard=True) 
-Hamburger retVal=sesameseedbun
-if (beefpatty==True)
-    retVal+=beefpatty
+Include csp_Ethan'sPairProject.txt.
+Test (void)
+if (B!=D)
+    print "failed"
+end 
+if (G!=E)
+    print "failed"
 end
-if (mustard==True)
-    retVal+=mustard
+if (Z!=Z)
+    print "failed"
 end
-if (ketchup==True)
-    retVal+=ketchup
+if (T!=T)
+    print "failed"
 end
-if (onions==True)
-    retVal+=onions
-end
-if (pickles==True)
-    retVal+=pickles
-end
-if (americancheese==True)
-    retVal+=americancheese
-end
-return (retVal)
+if (K!=P)
+    print "failed"
 end
