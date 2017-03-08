@@ -1,0 +1,38 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Oreo_mcflurry #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_Oreo_mcflurry
+ * @author Graham Adams
+ * @date 3/3/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, M&M's=true)
+  if VannillaIcecream==true
+    add vannilla icecream
+end
+  if M&M's==true
+    add M&M's
+
+end #end of program
+    
