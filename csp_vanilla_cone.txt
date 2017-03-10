@@ -1,0 +1,39 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * vanilla_cone #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_vanilla_cone
+ * @author Graham Adams
+ * @date 2/20/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+vanilla_conetype vanilla_cone (vanilla_icecream=true, cone=true)
+  if vanilla_icecream==true
+    add icecream
+end
+  if cone==true
+    add cone
+end
+
+end #end of program
+    
