@@ -51,3 +51,78 @@
 	end
 	return (drink)
 end
+
+ ExtraSmallDrinkType ExtraSmalldrink (string flavour)
+	SmallDrinkType drink
+	Case brand
+	when "coke"
+		drink coke
+	when "sprite"
+		drink sprite
+	when "Dr. Pepper"
+		drink Dr. Pepper
+	when "diet Dr. Pepper"
+		drink diet Dr. Pepper
+	when "diet Coke"
+		drink diet Coke
+	when "Hi-C"
+		drink Hi-C
+	when "iced tea"
+		drink iced tea
+	when "sweet tea"
+		drink sweet tea
+	else
+		drink = water
+	end
+	return (drink)
+end
+
+ MediumDrinkType Mediumdrink (string flavour)
+	SmallDrinkType drink
+	Case brand
+	when "coke"
+		drink coke
+	when "sprite"
+		drink sprite
+	when "Dr. Pepper"
+		drink Dr. Pepper
+	when "diet Dr. Pepper"
+		drink diet Dr. Pepper
+	when "diet Coke"
+		drink diet Coke
+	when "Hi-C"
+		drink Hi-C
+	when "iced tea"
+		drink iced tea
+	when "sweet tea"
+		drink sweet tea
+	else
+		drink = water
+	end
+	return (drink)
+end
+
+ LargeDrinkType Largedrink (string flavour)
+	SmallDrinkType drink
+	Case brand
+	when "coke"
+		drink coke
+	when "sprite"
+		drink sprite
+	when "Dr. Pepper"
+		drink Dr. Pepper
+	when "diet Dr. Pepper"
+		drink diet Dr. Pepper
+	when "diet Coke"
+		drink diet Coke
+	when "Hi-C"
+		drink Hi-C
+	when "iced tea"
+		drink iced tea
+	when "sweet tea"
+		drink sweet tea
+	else
+		drink = water
+	end
+	return (drink)
+end
