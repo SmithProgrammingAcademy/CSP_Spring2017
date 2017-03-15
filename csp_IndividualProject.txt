@@ -25,10 +25,10 @@
  *
  *****************************************************************************/
 
-IndividualProjectType IndividualProject #Function Name ( 1, 5, 7)
+IndividualProjectType IndividualProject ( 1, 5, 7)
 For (1<5+71+=1) #This will keep adding until it reaches 11
 end
-While (11==True) #This make 11 12
+While (11==True) #This makes 11 12
     11+=1
     
 end 
