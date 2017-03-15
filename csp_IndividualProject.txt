@@ -1,0 +1,40 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * 
+ *
+ * @file csp_IndividualProject.txt
+ * @author Ethan Finck
+ * @date 3/15/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+IndividualProjectType IndividualProject #Function Name ( 1, 5, 7)
+For (1<5+71+=1) #This will keep adding until it reaches 11
+end
+While (11==True) #This make 11 12
+    11+=1
+    
+end 
+if (12!=True)
+    print "failed" 
+else 
+    print "success"
+retVal+=12
+return (retVal)
