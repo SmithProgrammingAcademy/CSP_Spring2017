@@ -24,7 +24,7 @@
  * Modifications:
  *
  *****************************************************************************/
-char letters[]=(A=1,B=2,C=3, D=4, E=5)
+char letters[]=(A,B,C,D,E)
 index=0
 While (letters[index]!=input)#This will turn the math into human terms 
     index+=1
