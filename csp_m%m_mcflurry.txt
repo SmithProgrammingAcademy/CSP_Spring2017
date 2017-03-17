@@ -13,13 +13,13 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
+ * m&m_mcflurry #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_Oreo_mcflurry
+ * @file csp_m%m_mcflurry
  * @author Graham Adams
- * @date 3/3/2017
+ * @date 3/17/2017
  */
 
 /****************************************************************************
@@ -27,12 +27,12 @@
  *
  *****************************************************************************/
 
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
+m&m_mcflurrytype m&m_mcflurry (VannillaIcecream=true, M&M's=true)
   if VannillaIcecream==true
     add vannilla icecream
 end
-  if oreo==true
-    add oreo
+  if M&M's==true
+    add M&M's
 
 end #end of program
     
