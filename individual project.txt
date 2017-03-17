@@ -1,0 +1,54 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * individual_project
+ * input 3 integers
+ * output integer
+ * @file csp_individual_project
+ * @author Graham Adams
+ * @date 3/15/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+ 
+ integer x
+ integer a
+ integer y
+ integer z
+ integer return
+ for (a=4, x)>a || input(0)<a, x-=1)
+	if (x<0)
+		x=5
+	end #end of if statement
+	while (y==2 != true)
+		if y<2)
+			y+=1
+		else 
+			y-=1
+		end #end of if else statement
+	end #end of while loop y now equals 2
+		if z < 0
+			z * -5
+		else if z > 0
+			z / 2
+		else 
+			input (2) + 100
+		end #end of if else if else statement
+ end #end of for statement x now equals 3
+ return = x * y * z
+ print return #output will be x times y times z
