@@ -1,0 +1,41 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * 
+ *
+ * @file csp_IndividualProject.txt
+ * @author Ethan Finck
+ * @date 3/15/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+char letters[]=(A,B,C,D,E)
+index=0
+While (letters[index]!=input)#This will turn the math into human terms 
+    index+=1
+end
+For (index<2+3index>1)#This will add until it reaches 4 and turn the math back into computer terms
+    index-1
+end
+if (4==True)
+    retVal+=4
+else 
+    print "failed
+end
+return (retVal)
+end
