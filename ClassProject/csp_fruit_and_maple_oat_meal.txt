@@ -1,0 +1,45 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * Program for the fruit and maple oat meal
+ *
+ * @file csp_fruit_and_maple_oat_meal
+ * @authors James Musone
+ * @date 3/2/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+ 
+OatmealType Oatmeal(diced_apples=true, cranberry_raisin_blend, light_cream)
+Constant(Oatmeal)
+
+if(diced_apples == true)
+	Oatmeal += diced_apples
+end
+
+if(cranberry_raisin_blend == true)
+	Oatmeal += cranberry_raisin_blend
+end
+
+if(light_cream == true)
+	Oatmeal += light_cream
+end
+
+return(Oatmeal)
+
+end
