@@ -18,8 +18,8 @@
  * OUTPUTS none
  *
  * @file csp_main.txt
- * @author Brad Smith
- * @date 3/9/2017
+ * @author Ethan Finck
+ * @date 3/20/2017
  */
 
 /****************************************************************************
@@ -43,5 +43,57 @@ void main (void)
     end
 
   end #while(1)
+if (hour < 11)
+include csp_Fruit 'N Yogurt Parfait
+include csp_egg_mcmuffin
+include csp_Egg Whight Delight McMuffin
+include csp_sausage_mcmuffin
+include csp_sausage_egg_mcmuffin
+include csp_sausage_biscuit
+include csp_sausage_egg_biscuit
+include csp_Steak Egg and cheese biscuit
+include csp_bacon_egg_cheese_biscuit
+include csp_Mcgiddles
+include csp_Bacon egg and cheese bagel
+include csp_Big brekfast with hot cakes
+include csp_big_breakfast
+include csp_Hotcakes
+include csp_hotcakes_with_sausage
+include csp_sausage_burrito
+include csp_hash_browns
+include csp_fruit_and_maple_oat_meal
+else 
+include csp_BigMac
+include csp_GrandMac
+include csp_MacJr
+include csp_QuarterPounder
+include csp_DoubleQuarterPounder
+include csp_DoubleCheeseburger
+include csp_Hamburger
+include csp_CheeseBurger
+include csp_McDouble
+include csp_chicken mcnuggets
+include csp_artisan-grilled-chicken-sandwich
+include csp_mcchicken
+include csp_Filet-O-Fish
+include csp_Bacon Ranch Salad & Buttermilk Crispy Chicken
+include csp_baconranchgrilledsalad
+include csp_southwest chicken saled
+include csp_side salad
+include csp_world famous fries
+include csp_apple slices
+include csp_cuties
+include csp_Yoplait Go-Gurt Low fat Strawberry Yogurt 
+include csp_vanilla_cone
+include csp_hot_fudge_sundae
+include csp_Oreo_mcflurry
+include csp_m%m_mcflurry
+include csp_
+include csp_
+include csp_
+include csp_
+include csp_
+
+
 
 end #program
