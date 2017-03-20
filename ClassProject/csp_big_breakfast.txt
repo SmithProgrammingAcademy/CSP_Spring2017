@@ -13,26 +13,44 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the big breakfast
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_big_breakfast
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+ 
+BreakfastType Big(scrambled eggs=true, biscuit=true, hash browns=true, sausage patty=true, clarified butter=true, salted butter=true)
+ 
+if(scrambled eggs == true)
+	Big += scrambled eggs
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+if(biscuit == true)
+	Big == biscuit
+end
+
+if(hash browns == true)
+	Big += hash browns
+end
+
+if(sausage patty == true)
+	Big += sausage patty
+end
+
+if(clarified butter == true)
+	Big += clarified butter
+end
+
+if(salted butter == true)
+	Big += salted butter
+end
+
+return(Big)
+
+end

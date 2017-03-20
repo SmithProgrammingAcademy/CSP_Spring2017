@@ -13,26 +13,41 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the bacon egg and cheese biscuit
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_bacon_egg_cheese_biscuit
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+ 
+BiscuitType Sandwhich(folded egg=true, american cheese, bacon=true, salted butter=true, clarified butter=true)
+Constant(biscuit)
 
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+if(folded egg == true)
+	Sandwhich += folded egg
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+if(american cheese == true)
+	Sandwhich += american cheese
+end
+
+if(bacon == true)
+	Sandwhich += bacon
+end
+
+if(salted butter == true)
+	Sandwhich += salted butter
+end
+
+if(clarified butter == true)
+	Sandwhich += clarified butter
+end
+
+return(Sandwhich)
+
+end

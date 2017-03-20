@@ -13,26 +13,36 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the hotcakes with sausage
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_hotcakes_with_sausage
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+ 
+BrekfestType Hotcake(hotcakes=true, hotcake syrup=true, sausage patty=true, salted whipped butter=true)
 
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+if(hotcakes == true)
+	Hotcake += hotcakes
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+if(hotcake syrup == true)
+	Hotcake += hotcake syrup
+end
+
+if(sausage patty == true)
+	Hotcake += sausage patty
+end
+
+if(salted whipped butter == true)
+	Hotcake += salted whipped butter
+end
+
+return(Hotcake)
+
+end

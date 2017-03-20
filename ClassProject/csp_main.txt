@@ -13,26 +13,35 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
+ * Main #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_main.txt
+ * @author Brad Smith
+ * @date 3/9/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+#include "print"
+#include "time"
+#include "get"
+#include "PutOnTray"
+ 
+void main (void)
+  while (1)
+    integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
 
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
-end
-  if oreo==true
-    add oreo
+    print "Welcome to McDonalds. Please select from our menu items below."
+    if (hour < 11)          #before 11AM indicates breakfast
+       print "Breakfast Menu. "
+    else
+       print "Main Menu."
+    end
 
-end #end of program
-    
+  end #while(1)
+
+end #program

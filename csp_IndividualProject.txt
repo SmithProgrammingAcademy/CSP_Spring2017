@@ -13,26 +13,29 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * 
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_IndividualProject.txt
+ * @author Ethan Finck
+ * @date 3/15/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+char letters[]=(A,B,C,D,E)
+index=0
+While (letters[index]!=input)#This will turn the math into human terms 
+    index+=1
 end
-  if oreo==true
-    add oreo
-
-end #end of program
-    
+For (index<2+3index>1)#This will add until it reaches 4 and turn the math back into computer terms
+    index-1
+end
+if (4==True)
+    retVal+=4
+else 
+    print "failed
+end
+return (retVal)
+end

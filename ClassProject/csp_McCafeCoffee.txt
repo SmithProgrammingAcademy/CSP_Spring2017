@@ -13,26 +13,18 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Find and return the maximum value of two numbers
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_McCafeCoffee.txt
+ * @author Ethan Finck
+ * @date 3/13/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+McCafeCoffee Coffee (Coffee)
+Coffee retVal+=Coffee
 end
-  if oreo==true
-    add oreo
-
-end #end of program
-    
+return (retVal) 
