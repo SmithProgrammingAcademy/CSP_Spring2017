@@ -73,6 +73,7 @@ include csp_vanilla_cone
 include csp_hot_fudge_sundae
 include csp_Oreo_mcflurry
 include csp_m%m_mcflurry
+include most drinks 
 void main (void)
   while (1)
     integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
