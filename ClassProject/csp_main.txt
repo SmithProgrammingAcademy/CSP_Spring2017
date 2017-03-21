@@ -18,7 +18,7 @@
  * OUTPUTS none
  *
  * @file csp_main.txt
- * @author Ethan Finck
+ * @author Brad Smith/Ethan Finck
  * @date 3/20/2017
  */
 
@@ -30,20 +30,6 @@
 #include "time"
 #include "get"
 #include "PutOnTray"
- 
-void main (void)
-  while (1)
-    integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
-
-    print "Welcome to McDonalds. Please select from our menu items below."
-    if (hour < 11)          #before 11AM indicates breakfast
-       print "Breakfast Menu. "
-    else
-       print "Main Menu."
-    end
-
-  end #while(1)
-if (hour < 11)
 include csp_Fruit 'N Yogurt Parfait
 include csp_egg_mcmuffin
 include csp_Egg Whight Delight McMuffin
@@ -62,7 +48,6 @@ include csp_hotcakes_with_sausage
 include csp_sausage_burrito
 include csp_hash_browns
 include csp_fruit_and_maple_oat_meal
-else 
 include csp_BigMac
 include csp_GrandMac
 include csp_MacJr
@@ -88,12 +73,25 @@ include csp_vanilla_cone
 include csp_hot_fudge_sundae
 include csp_Oreo_mcflurry
 include csp_m%m_mcflurry
-include csp_
-include csp_
-include csp_
-include csp_
-include csp_
-end # of if
+void main (void)
+  while (1)
+    integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
+
+    print "Welcome to McDonalds. Please select from our menu items below."
+    if (hour < 11)          #before 11AM indicates breakfast
+       print "Breakfast Menu. "
+    else
+       print "Main Menu."
+    end
+
+  end #while(1)
+if (order is ready)
+    PutOnTray
+    print "Enjoy your meal" 
+else 
+    GetOrderReady
+end 
+
 
 
 end #program
