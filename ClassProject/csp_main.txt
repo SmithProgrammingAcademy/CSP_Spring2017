@@ -86,13 +86,7 @@ void main (void)
     end
 
   end #while(1)
-if (order is ready)
-    PutOnTray
-    print "Enjoy your meal" 
-else 
-    GetOrderReady
-end 
-
+PutOnTray (GetMeal)
 
 
 end #program
