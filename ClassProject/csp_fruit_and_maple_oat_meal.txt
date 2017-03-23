@@ -13,26 +13,33 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the fruit and maple oat meal
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_fruit_and_maple_oat_meal
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+ 
+OatmealType Oatmeal(diced_apples=true, cranberry_raisin_blend, light_cream)
+Constant(Oatmeal)
 
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+if(diced_apples == true)
+	Oatmeal += diced_apples
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+if(cranberry_raisin_blend == true)
+	Oatmeal += cranberry_raisin_blend
+end
+
+if(light_cream == true)
+	Oatmeal += light_cream
+end
+
+return(Oatmeal)
+
+end

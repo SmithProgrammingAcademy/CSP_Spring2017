@@ -13,26 +13,24 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the hash browns
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_hash_browns
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+ 
+HashbrownType Hashbrown(hash brown=true)
+ 
+if(hash brown == true)
+	Hashbrown += hash brown
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+retun(Hashbrown)
+
+end

@@ -13,26 +13,33 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Find and return the maximum value of two numbers
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_mcgriddles_meal.txt
+ * @author James Musone
+ * @date 3/16/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+include(csp_mcgriddles)
+include(csp_Coffee)
+include(csp_hash_browns)
+ 
+MealType Mcgriddles(csp_mcgriddles=true, csp_Coffee=true, csp_hash_browns=true)
+ 
+if(csp_mcgriddles==true)
+	Mcgriddle += csp_mcgriddles
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+if(csp_Coffee==true)
+	Mcgriddle += csp_Coffee
+end
+
+if(csp_hash_browns==true)
+	Mcgriddle += csp_hash_browns
+end
+
+return(Mcgriddle)

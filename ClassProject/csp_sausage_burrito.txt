@@ -13,26 +13,32 @@
  *****************************************************************************/
 
 /**
- * Oreo_mcflurry #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the sausage burrito
  *
- * @file csp_Oreo_mcflurry
- * @author Graham Adams
- * @date 3/3/2017
+ * @file csp_sausage_burrito
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+ 
+SausageType Burrito(Scrambled_egg_sausage_and_vegetable_mix=true, flour tortilla=true, american cheese=true)
 
-Oreo_mcflurrytype Oreo_mcflurry (VannillaIcecream=true, oreo=true)
-  if VannillaIcecream==true
-    add vannilla icecream
+if(Scrambled_egg_sausage_and_vegetable_mix == true)
+	Burrito += Scrambled_egg_sausage_and_vegetable_mix
 end
-  if oreo==true
-    add oreo
 
-end #end of program
-    
+if(flour tortilla == true)
+	Burrito += flour tortilla
+end
+
+if(american cheese == true)
+	Burrito += american cheese
+end
+
+return(Burrito)
+
+end
