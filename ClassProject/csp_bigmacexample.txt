@@ -1,0 +1,31 @@
+include csp_bigmac
+include csp_drink
+include csp_fries
+include print
+include get
+
+BigMacMealType BigMacMeal (string soda)
+
+BigMacMealType output
+char input
+boolean Ketchup
+
+print "Would you like to customize the sandwich?"
+get input
+if(input == yes)
+  Print "Do you want Ketchup?"
+  get input
+  if (input == yes)
+     ketchup = TRUE
+  end
+
+  output = BigMac(TRUE, FALSE, FALSE) + Fries() + drink(soda)
+else
+  output = BigMac() + Fries() + drink(soda)
+end
+
+return(output)
+end
+
+
+

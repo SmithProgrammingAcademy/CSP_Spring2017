@@ -1,0 +1,45 @@
+Computer Science Principles
+Spring 2017
+Final Exam
+
+
+1. Write a "while" loop that is "infinite" meaning it never gets out of the loop
+2. Write a "for" loop that counts/executes 10 times, but counts down from 10 -- not up from 0
+3. Describe/List/Fill in/name parts of a function below:
+
+
+_____________________     ___________________ ( ______________ )
+
+end
+
+4. What is an operating system? Name a famous Operating System. 
+5. What is an interrupt? How should interrupts be coded, in general terms?
+6. The starting salary for a Computer Science Graduate is about $ _______________ which is (higher or lower) than the median United States salary for all jobs of $51,000.
+7. What does this code snippet do?
+
+integer age = 25
+
+if (age < 30)
+  print "You are young!"
+else if (age > 50)
+  print "You are from the stone ages"
+else 
+  print "You are old"
+end
+
+
+8. Create an integer variable. Give it the value of the "number of hours in a year". Remember to let the computer do math for you. (Hint: 365 days per year, 24 hours per day)
+
+9. Evaluate True/False. Variables: test = TRUE, check = FALSE, age = 25
+
+T   F    ( test )
+T   F    ( test  || check)
+T   F    (age < 20) && ( check )
+T   F    (age > 20)
+T   F    (age == 25)
+T   F    (age != 25)
+
+10. What is Github? What is it's purpose?
+11. What is the purpose of the Slack app? Why is that good?
+12. Why is Pair Programming used at many companies? What is the advantage of it?
+13. At the start of class, you wrote a "program" to make two cups of coffee. Why do you think everybody's coffee program was so different? What would have helped them be more similar?
