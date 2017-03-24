@@ -1,0 +1,43 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+/**
+ * individual_project
+ * input 3 integers
+ * output 
+ * @file csp_individual_project
+ * @author Emily Bjorensen
+ * @date 3/22/2017
+ */
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+ include csp_QuarterPounder 
+ include csp_drink
+ include csp_fries
+ include print
+ include get
+ 
+ GrandalType QuarterPounder (string soda)
+ 
+ QuarterPounderMealType output
+ char input
+ 
+   output = QuarterPounder(TRUE, FALSE, FALSE) + Fries() + drink(soda)
+ else
+   output = QuarterPounder() + Fries() + drink(soda)
+ end
+ 
+ return(output)
+ end
