@@ -74,6 +74,14 @@ include csp_hot_fudge_sundae
 include csp_Oreo_mcflurry
 include csp_m%m_mcflurry
 include most drinks 
+include csp_mcgriddles_meal
+include Evm_DoubleQuarterPounder
+include Evm_Grand mac
+include Evm_Quarter pounder 
+include csp_EVMFilet-O-Fish
+include csp_10peice_mcnuggetEvm
+include csp_evm_Artisan_Grilled_Chicken_Sandwich
+include csp_evm_SausageMcmuffinEgg
 void main (void)
   while (1)
     integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
@@ -81,12 +89,47 @@ void main (void)
     print "Welcome to McDonalds. Please select from our menu items below."
     if (hour < 11)          #before 11AM indicates breakfast
        print "Breakfast Menu. "
+       print "What would you like for breakfast"
+       get (input)
+       if (input == Sausage Biscuit)
+           PutOnTray(Sausage Biscuit)
+       else if (input  == hash browns)
+           PutOnTray(hash browns)
+       else if (input == coke)
+           PutOnTray(coke)
+       else if (input == Sausage Mcmuffin with egg meal)
+           PutOnTray (Sausage Mcmuffin with egg meal)
+       else if (input == Bacon egg sheese mcgiddle meal)
+           PutOnTray (Bacon egg sheese mcgiddle meal)
+          
+       end 
     else
        print "Main Menu."
+       print "What would you like"
+       if (input == Artisan grilled sandwich meal)
+           PutOnTray (Artisan grilled sandwich meal)
+       else if (input == Big Mac meal with sprite)
+           PutOnTray (Big Mac meal with sprite)
+       else if (input == Big Mac meal with coke)
+           PutOnTray (Big Mac meal with coke)
+       else if (input == order of fries)
+           PutOntTray (order of fries)
+       else if (input == Large coke)
+           PutOnTray (Large coke)
+       else if (input == Large Diet coke)
+           PutOnTray (Large Diet coke)
+       else if (input == chocolate shake)
+           PutOnTray (chocolate shake)
+       else if (input == 10 peice nugget meal with sweet tea)
+           PutOnTray (10 peice nugget meal with sweet tea)
+       else 
+           print "item not available please pick another item"
+       end
+      
     end
 
   end #while(1)
-PutOnTray (GetMeal)
+
 
 
 end #program
