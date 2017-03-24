@@ -1,0 +1,39 @@
+/*****************************************************************************
+ * Smith Programming Academy
+ * 2522 Shoals Bluff Ct
+ * Buford, GA 30519
+ *
+ * (c) Copyright  Smith Programming Academy
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * applepie #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_applepie
+ * @author Graham Adams
+ * @date 2/9/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+
+applepietype applepie (Milk=true, Chocolate=true)
+  if Milk==true
+    add milk
+end
+  if Chocolate==true
+    add chocolate
+end
+  
+end #end of program
+    
