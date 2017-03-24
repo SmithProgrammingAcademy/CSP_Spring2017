@@ -1,0 +1,30 @@
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * 10piece_mcnuggetEVM #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_10piece_mcnuggetEVM
+ * @author Graham Adams
+ * @date 3/24/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+include csp_chicken Mcnuggets
+include csp_medium drink (sweet tea)
+include csp_world famous fries
+10piece_mcnuggetEVMType 10piece_mcnuggetEVM (void)
+10piece_mcnuggetEVMType output
+  output = chicken Mcnuggets() + world famous fries() + sweet tea() 
+return(output)
+end
