@@ -13,11 +13,11 @@
  *****************************************************************************/
 
 /**
- * applepie #function name
+ * oatmealraisin_cookie #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_applepie
+ * @file csp_oatmealraisin_cookie
  * @author Graham Adams
  * @date 3/17/2017
  */
@@ -27,15 +27,15 @@
  *
  *****************************************************************************/
 
-applepietype applepie (apple=true, cinnamon=true, pastry=true)
-  if apple==true
-    add apple
+oatmealraisin_cookietype oatmealraisin_cookie (oat=true, cookie=true, raisin=true)
+  if oat==true
+    add oat
 end
-  if cinnamon==true
-    add cinnamon
+  if cookie==true
+    add cookie
 end
-	if pastry==true
-	add pastry
-
+if raisin==true
+	add raisins
+end
 end #end of program
     

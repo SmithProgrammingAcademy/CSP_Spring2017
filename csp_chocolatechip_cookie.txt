@@ -13,11 +13,11 @@
  *****************************************************************************/
 
 /**
- * applepie #function name
+ * chocolatechip_cookie #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_applepie
+ * @file csp_chocolatechip_cookie
  * @author Graham Adams
  * @date 3/17/2017
  */
@@ -27,15 +27,13 @@
  *
  *****************************************************************************/
 
-applepietype applepie (apple=true, cinnamon=true, pastry=true)
-  if apple==true
-    add apple
+chocolatechip_cookietype chocolatechip_cookie (chocolatechip=true, cookie=true)
+  if chocolatechip==true
+    add chocolatechip
 end
-  if cinnamon==true
-    add cinnamon
+  if cookie==true
+    add cookie
 end
-	if pastry==true
-	add pastry
 
 end #end of program
     

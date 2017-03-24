@@ -13,11 +13,11 @@
  *****************************************************************************/
 
 /**
- * applepie #function name
+ *strawberryandcreme#function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_applepie
+ * @file csp_strawberryandcreme
  * @author Graham Adams
  * @date 3/17/2017
  */
@@ -27,15 +27,14 @@
  *
  *****************************************************************************/
 
-applepietype applepie (apple=true, cinnamon=true, pastry=true)
-  if apple==true
-    add apple
+strawberryandcremetype strawberryandcreme (strawberry=true, creme=true, pastry=true)
+  if strawberry==true
+    add strawberry
 end
-  if cinnamon==true
-    add cinnamon
+  if creme==true
+    add creme
 end
 	if pastry==true
 	add pastry
-
 end #end of program
     
