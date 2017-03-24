@@ -18,8 +18,8 @@
  * OUTPUTS none
  *
  * @file csp_main.txt
- * @author Brad Smith
- * @date 3/9/2017
+ * @author Brad Smith/Ethan Finck
+ * @date 3/20/2017
  */
 
 /****************************************************************************
@@ -30,7 +30,58 @@
 #include "time"
 #include "get"
 #include "PutOnTray"
- 
+include csp_Fruit 'N Yogurt Parfait
+include csp_egg_mcmuffin
+include csp_Egg Whight Delight McMuffin
+include csp_sausage_mcmuffin
+include csp_sausage_egg_mcmuffin
+include csp_sausage_biscuit
+include csp_sausage_egg_biscuit
+include csp_Steak Egg and cheese biscuit
+include csp_bacon_egg_cheese_biscuit
+include csp_Mcgiddles
+include csp_Bacon egg and cheese bagel
+include csp_Big brekfast with hot cakes
+include csp_big_breakfast
+include csp_Hotcakes
+include csp_hotcakes_with_sausage
+include csp_sausage_burrito
+include csp_hash_browns
+include csp_fruit_and_maple_oat_meal
+include csp_BigMac
+include csp_GrandMac
+include csp_MacJr
+include csp_QuarterPounder
+include csp_DoubleQuarterPounder
+include csp_DoubleCheeseburger
+include csp_Hamburger
+include csp_CheeseBurger
+include csp_McDouble
+include csp_chicken mcnuggets
+include csp_artisan-grilled-chicken-sandwich
+include csp_mcchicken
+include csp_Filet-O-Fish
+include csp_Bacon Ranch Salad & Buttermilk Crispy Chicken
+include csp_baconranchgrilledsalad
+include csp_southwest chicken saled
+include csp_side salad
+include csp_world famous fries
+include csp_apple slices
+include csp_cuties
+include csp_Yoplait Go-Gurt Low fat Strawberry Yogurt 
+include csp_vanilla_cone
+include csp_hot_fudge_sundae
+include csp_Oreo_mcflurry
+include csp_m%m_mcflurry
+include most drinks 
+include csp_mcgriddles_meal
+include Evm_DoubleQuarterPounder
+include Evm_Grand mac
+include Evm_Quarter pounder 
+include csp_EVMFilet-O-Fish
+include csp_10peice_mcnuggetEvm
+include csp_evm_Artisan_Grilled_Chicken_Sandwich
+include csp_evm_SausageMcmuffinEgg
 void main (void)
   while (1)
     integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
@@ -38,10 +89,47 @@ void main (void)
     print "Welcome to McDonalds. Please select from our menu items below."
     if (hour < 11)          #before 11AM indicates breakfast
        print "Breakfast Menu. "
+       print "What would you like for breakfast"
+       get (input)
+       if (input == Sausage Biscuit)
+           PutOnTray(Sausage Biscuit)
+       else if (input  == hash browns)
+           PutOnTray(hash browns)
+       else if (input == coke)
+           PutOnTray(coke)
+       else if (input == Sausage Mcmuffin with egg meal)
+           PutOnTray (Sausage Mcmuffin with egg meal)
+       else if (input == Bacon egg sheese mcgiddle meal)
+           PutOnTray (Bacon egg sheese mcgiddle meal)
+          
+       end 
     else
        print "Main Menu."
+       print "What would you like"
+       if (input == Artisan grilled sandwich meal)
+           PutOnTray (Artisan grilled sandwich meal)
+       else if (input == Big Mac meal with sprite)
+           PutOnTray (Big Mac meal with sprite)
+       else if (input == Big Mac meal with coke)
+           PutOnTray (Big Mac meal with coke)
+       else if (input == order of fries)
+           PutOntTray (order of fries)
+       else if (input == Large coke)
+           PutOnTray (Large coke)
+       else if (input == Large Diet coke)
+           PutOnTray (Large Diet coke)
+       else if (input == chocolate shake)
+           PutOnTray (chocolate shake)
+       else if (input == 10 peice nugget meal with sweet tea)
+           PutOnTray (10 peice nugget meal with sweet tea)
+       else 
+           print "item not available please pick another item"
+       end
+      
     end
 
   end #while(1)
+
+
 
 end #program
