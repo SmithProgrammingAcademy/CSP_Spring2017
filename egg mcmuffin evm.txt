@@ -1,0 +1,30 @@
+ *     ALL RIGHTS RESERVED
+ *
+ * The software, source code and information contained herein are proprietary
+ * to, and comprise valuable intellectual property and trade secrets of
+ * Smith Programming Academy. All use, disclosures and/or reproduction is prohibited
+ * unless authorized in writing.
+ *****************************************************************************/
+
+/**
+ * egg_mcmuffinEVM #function name
+ * INPUTS none
+ * OUTPUTS none
+ *
+ * @file csp_mcmuffinEVM
+ * @author Graham Adams
+ * @date 3/17/2017
+ */
+
+/****************************************************************************
+ * Modifications:
+ *
+ *****************************************************************************/
+include csp_egg_mcmuffin
+include csp_coffee
+include csp_hashbrowns
+egg_mcmuffinType egg_mcmuffinEVM (void)
+egg_mcmuffinType output
+  output = egg_mcmuffin() + hashbrowns() + coffee()
+return(output)
+end
