@@ -1,0 +1,112 @@
+Computer Science Principles Midterm
+Spring 2017
+
+Directions:
+Write to the side or below the code snippet, what the code outputs. If it's modifying a variable, then state what it's value is.
+If its something that is printed, then write what is printed.
+
+-------------------------------------------------------------------
+integer x = 0
+if ( x > 0 )
+  print "x is positive"
+else
+  print "x is not positive"
+end
+
+
+
+
+-------------------------------------------------------------------
+integer x = 0
+while(TRUE)
+  x += 1
+end
+
+
+
+-------------------------------------------------------------------
+integer x
+for (x=0, x<2, x+=2)
+  print x
+end
+
+
+
+
+-------------------------------------------------------------------
+string names[] = ("brad", "anna", "lincoln")
+
+names[1] = ?
+
+
+
+
+
+-------------------------------------------------------------------
+const SECS_IN_YEAR = 365*24*60*60
+string names[] = ("brad", "anna", "lincoln")
+boolean checkIt = TRUE
+integer x
+
+x = 0
+while (x < SECS_IN_YEAR && checkIt == TRUE)
+  if (x < 3)
+    print names[x]
+    x += 1
+  else
+   x = 0
+   checkIt = FALSE
+  end
+end
+
+print "i'm awesome for figuring this out"
+
+
+
+
+-------------------------------------------------------------------
+months[] = "jan, feb, march, apr, may, june, july, aug, sept, oct, nov, dec"
+
+months[11] = ?
+months[12] = ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+string name = "Donald"
+
+case name
+  when "Bill"
+    print "Clinton"
+  when "George"
+    print "Bush"
+    print "Washington"
+  when "Donald"
+    print "Trump"
+  else
+    print "you!"
+end
+
+
+-------------------------------------------------------------------
+include "csp_max.txt"
+
+integer x
+
+x = max(3,4)
+print x
+
+
+
+

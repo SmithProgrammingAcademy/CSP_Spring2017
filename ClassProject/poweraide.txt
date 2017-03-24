@@ -13,13 +13,13 @@
  *****************************************************************************/
 
 /**
- * artisan-grilled-chicken-sandwich #function name
+ * Powerade #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_artisan-grilled-chicken-sandwich
- * @author Graham Adams
- * @date 2/6/2017
+ * @file csp_powerade
+ * @author Kevin Smith
+ * @date 3/3/2017
  */
 
 /****************************************************************************
@@ -27,22 +27,10 @@
  *
  *****************************************************************************/
 
-artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
-  if artisan_roll==true
-    add artisan roll
-  end
-  if artisan-grilled-chicken-filet==true
-    add artisan grlled chicken filet
-  end
-  if shredded_lettuce==true
-    add lettuce
-  end
-  if vinnagerette_sauce==true
-    add vinnagerette sauce
-  end
-  if tomato_slice==true
-     add a tomato slice
-  end     
-	 
-end #end of program
-    
+ PoweradeType Powerade (MountainBerryBlast=True, ice)
+ Powerade retval+=MountainBerryBlast
+ if (ice==True)
+     retval+=ice
+	end
+return (retval)
+end

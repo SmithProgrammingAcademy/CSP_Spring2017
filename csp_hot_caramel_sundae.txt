@@ -13,13 +13,13 @@
  *****************************************************************************/
 
 /**
- * artisan-grilled-chicken-sandwich #function name
+ * hot_caramel_sundae #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_artisan-grilled-chicken-sandwich
+ * @file csp_hot_caramel_sundae
  * @author Graham Adams
- * @date 2/6/2017
+ * @date 3/3/2017
  */
 
 /****************************************************************************
@@ -27,22 +27,16 @@
  *
  *****************************************************************************/
 
-artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
-  if artisan_roll==true
-    add artisan roll
-  end
-  if artisan-grilled-chicken-filet==true
-    add artisan grlled chicken filet
-  end
-  if shredded_lettuce==true
-    add lettuce
-  end
-  if vinnagerette_sauce==true
-    add vinnagerette sauce
-  end
-  if tomato_slice==true
-     add a tomato slice
-  end     
-	 
+hot_caramel_sundaetype hot_caramel_sundae (VannillaIcecream=true, caramel=true, nuts=true,)
+  if VannillaIcecream==true
+    add vannilla icecream
+end
+  if caramel==true
+    add caramel
+end
+  if nuts==true
+    add nuts
+end
+
 end #end of program
     

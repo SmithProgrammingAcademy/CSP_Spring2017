@@ -13,29 +13,22 @@
  *****************************************************************************/
 
 /**
- * applepie #function name
- * INPUTS none
- * OUTPUTS none
+ * Apple Slices #function name
  *
- * @file csp_applepie
- * @author Graham Adams
- * @date 3/17/2017
+ * @file csp_Apple Slices
+ * @author Kevin Smith
+ * @date 1/19/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
- *****************************************************************************/
+*****************************************************************************/
 
-applepietype applepie (apple=true, cinnamon=true, pastry=true)
-  if apple==true
-    add apple
-end
-  if cinnamon==true
-    add cinnamon
-end
-	if pastry==true
-	add pastry
-
+start
+Apple Slices #function name
+Variables:
+(None)
+Constants:
+(Apple)
 end #end of program
-    

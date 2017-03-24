@@ -13,36 +13,29 @@
  *****************************************************************************/
 
 /**
- * artisan-grilled-chicken-sandwich #function name
- * INPUTS none
- * OUTPUTS none
+ * 
  *
- * @file csp_artisan-grilled-chicken-sandwich
- * @author Graham Adams
- * @date 2/6/2017
+ * @file csp_IndividualProject.txt
+ * @author Ethan Finck
+ * @date 3/15/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
-
-artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
-  if artisan_roll==true
-    add artisan roll
-  end
-  if artisan-grilled-chicken-filet==true
-    add artisan grlled chicken filet
-  end
-  if shredded_lettuce==true
-    add lettuce
-  end
-  if vinnagerette_sauce==true
-    add vinnagerette sauce
-  end
-  if tomato_slice==true
-     add a tomato slice
-  end     
-	 
-end #end of program
-    
+char letters[]=(A,B,C,D,E)
+index=0
+While (letters[index]!=input)#This will turn the math into human terms 
+    index+=1
+end
+For (index<2+3index>1)#This will add until it reaches 4 and turn the math back into computer terms
+    index-1
+end
+if (4==True)
+    retVal+=4
+else 
+    print "failed
+end
+return (retVal)
+end

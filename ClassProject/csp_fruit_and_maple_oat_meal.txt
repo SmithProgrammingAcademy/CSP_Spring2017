@@ -13,36 +13,33 @@
  *****************************************************************************/
 
 /**
- * artisan-grilled-chicken-sandwich #function name
- * INPUTS none
- * OUTPUTS none
+ * Program for the fruit and maple oat meal
  *
- * @file csp_artisan-grilled-chicken-sandwich
- * @author Graham Adams
- * @date 2/6/2017
+ * @file csp_fruit_and_maple_oat_meal
+ * @authors James Musone
+ * @date 3/2/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+ 
+OatmealType Oatmeal(diced_apples=true, cranberry_raisin_blend, light_cream)
+Constant(Oatmeal)
 
-artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
-  if artisan_roll==true
-    add artisan roll
-  end
-  if artisan-grilled-chicken-filet==true
-    add artisan grlled chicken filet
-  end
-  if shredded_lettuce==true
-    add lettuce
-  end
-  if vinnagerette_sauce==true
-    add vinnagerette sauce
-  end
-  if tomato_slice==true
-     add a tomato slice
-  end     
-	 
-end #end of program
-    
+if(diced_apples == true)
+	Oatmeal += diced_apples
+end
+
+if(cranberry_raisin_blend == true)
+	Oatmeal += cranberry_raisin_blend
+end
+
+if(light_cream == true)
+	Oatmeal += light_cream
+end
+
+return(Oatmeal)
+
+end

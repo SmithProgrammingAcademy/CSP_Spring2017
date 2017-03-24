@@ -13,36 +13,35 @@
  *****************************************************************************/
 
 /**
- * artisan-grilled-chicken-sandwich #function name
+ * Main #function name
  * INPUTS none
  * OUTPUTS none
  *
- * @file csp_artisan-grilled-chicken-sandwich
- * @author Graham Adams
- * @date 2/6/2017
+ * @file csp_main.txt
+ * @author Brad Smith
+ * @date 3/9/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
  *****************************************************************************/
+#include "print"
+#include "time"
+#include "get"
+#include "PutOnTray"
+ 
+void main (void)
+  while (1)
+    integer hour = GetHour()    #assumes range is 0-23, i.e. midnight to 11PM
 
-artisan-grilled-chicken-sandwichtype artisan-grilled-chicken-sandwich (artisan_roll=true, artisan-grilled-chicken-filet=true, shredded_lettuce=true, vinnagerette_sauce=true, tomato_slice=true)
-  if artisan_roll==true
-    add artisan roll
-  end
-  if artisan-grilled-chicken-filet==true
-    add artisan grlled chicken filet
-  end
-  if shredded_lettuce==true
-    add lettuce
-  end
-  if vinnagerette_sauce==true
-    add vinnagerette sauce
-  end
-  if tomato_slice==true
-     add a tomato slice
-  end     
-	 
-end #end of program
-    
+    print "Welcome to McDonalds. Please select from our menu items below."
+    if (hour < 11)          #before 11AM indicates breakfast
+       print "Breakfast Menu. "
+    else
+       print "Main Menu."
+    end
+
+  end #while(1)
+
+end #program

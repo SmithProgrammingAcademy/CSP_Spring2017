@@ -1,0 +1,54 @@
+/***************************************************************************** 
+* Smith Programming Academy 
+* 2522 Shoals Bluff Ct 
+* Buford, GA 30519 
+* 
+* (c) Copyright  Smith Programming Academy 
+*     ALL RIGHTS RESERVED 
+* 
+* The software, source code and information contained herein are proprietary 
+* to, and comprise valuable intellectual property and trade secrets of 
+* Smith Programming Academy. All use, disclosures and/or reproduction is prohibited 
+* unless authorized in writing. 
+*****************************************************************************/ 
+ 
+ 
+/** 
+* Program for the mcgriddle 
+* 
+* @file csp_Mcgriddles.txt 
+* @author James Musone
+* @date 1/13/2017 
+*/ 
+ 
+ 
+/**************************************************************************** 
+* Modifications: 
+* 
+*****************************************************************************/ 
+  
+
+McgriddleType Sandwich(sausge=true, egg=true, bacon=true, cheese=true)
+Constant(Mcgriddle patty)
+
+McgriddleType Sandwhich
+if (sausge == true)
+	sandwhich += sausge
+end
+
+if (egg == true)
+	sandwhich += egg
+end
+
+if (bacon == true)
+	sandwhich += bacon
+end
+
+if (cheese == true)
+	sandwhich += cheese
+end
+  
+Return(prepaired sanwhich)
+ 
+ end
+  
