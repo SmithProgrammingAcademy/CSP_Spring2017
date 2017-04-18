@@ -13,24 +13,27 @@
  *****************************************************************************/
 
 /**
- * Fruit 'N Yogurt Parfait #function name
+ * Fruit 'N Yogurt Parfait Recipe 
  *
  * @file csp_Fruit 'N Yogurt Parfait
- * @author Kevin Smith
- * @date 1/19/2017
+ * @Emily Bjorensen 
+ * @date 2/1/2017
  */
 
 /****************************************************************************
  * Modifications:
  *
-*****************************************************************************/
+ *****************************************************************************/
+Fruit 'N Yogurt ParfaitType Fruit 'N Yogurt Parfait (Strawberries=True, Blueberrries=True, lowfatGranola=True) 
+Fruit 'N Yogurt Parfait retVal=lowfatyogurt;
 
-start #start of program
-Fruit 'N Yogurt Parfait #function name
-Variables:
-(Strawberries)
-(Low fat Crunchy Granola)
-Constants:
-(Low fat Yogurt)
-(Bluebirds)
-ends #end of program
+If (Strawberries==True)
+    retVal+=Strawberries
+end
+If (Blueberrries==True)
+    retVal+=Blueberrries
+end
+If (lowfatGranola==True)
+    retVal+=lowfatGranola
+end
+return (retVal)
